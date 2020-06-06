@@ -149,7 +149,7 @@ def print_scores(scores):
 #SAVING THE MODEL
 
 from joblib import dump, load
-dump(model, 'Final.joblib')  
+dump(model, 'Final.pkl')  
 
 #Testing the data
 X_test=s_test_set.drop("MEDV",axis=1)
